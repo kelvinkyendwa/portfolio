@@ -6,7 +6,10 @@
         <project-carousel></project-carousel>
       <!-- introduction content -->
         <br />
-        <h1>Welcome to the portfolio</h1>
+        <div class="container">
+          <h1>Welcome to the portfolio</h1>
+        </div>
+        
      <!-- project list with completion status -->
         <project></project>
   </div>
@@ -22,7 +25,7 @@ import ProjectCarousel from '~/components/ProjectCarousel.vue';
 export default {
    components:{
     Project,
-    Navigation,
+    MitauNavigation,
     ProjectCarousel
    }
   }
